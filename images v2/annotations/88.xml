@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<annotation>
+  <folder>images</folder>
+  <filename>88.jpeg</filename>
+  <path>../</path>
+  <segmented>0</segmented>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1800</width>
+    <height>1200</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>plate</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1010</xmin>
+      <ymin>570</ymin>
+      <xmax>1425</xmax>
+      <ymax>745</ymax>
+    </bndbox>
+  </object>
+</annotation>
