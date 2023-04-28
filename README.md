@@ -1,5 +1,43 @@
 # ALPR
 
+This project is used to detect a licence plate from CCTV footage and extract the image. Once the image is extracted the letters are read using a OCR model and the licence plate number is predicted. Here are a few samples of the output.
+
+>Original frame of video
+
+
+![fram35](https://user-images.githubusercontent.com/19779081/45311494-e3dc3d80-b546-11e8-86b3-ea1815f8e7f8.jpg)
+
+>License Plate Detected
+
+![out](https://user-images.githubusercontent.com/19779081/45310686-9e1e7580-b544-11e8-8445-5d18496e23ba.png)
+
+>Segmented Characters
+
+![out](https://user-images.githubusercontent.com/19779081/45310754-cefeaa80-b544-11e8-9e17-be92cb7eb183.png)
+
+>Predicted Value
+
+![out](https://user-images.githubusercontent.com/19779081/45310789-e2aa1100-b544-11e8-94cd-a5bbdc2e7888.PNG)
+
+
+>Original Image
+
+![car](https://user-images.githubusercontent.com/19779081/45311273-38cb8400-b546-11e8-9cb0-a660bf07806e.png)
+
+>License Plate Detected
+
+![out7](https://user-images.githubusercontent.com/19779081/45311348-73352100-b546-11e8-9cd9-89f755690772.png)
+
+>Segmented characters
+
+![out8](https://user-images.githubusercontent.com/19779081/45311349-73352100-b546-11e8-89f2-6c2f3df9dc1f.png)
+
+>Predicted characters
+
+![out9](https://user-images.githubusercontent.com/19779081/45311365-7d571f80-b546-11e8-9775-a44ecc7213c7.PNG)
+
+This project uses Open CV, Darkflow, yoloV2.
+
 ## Installation
 
 You can choose _one_ of the following three ways to get started with darkflow.
